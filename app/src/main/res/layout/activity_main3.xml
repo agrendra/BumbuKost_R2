@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.agrendra.bumbukost_r2.Main3Activity">
+
+    <RelativeLayout
+        android:id="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff">
+            <ImageView
+                android:src="@drawable/footer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/relatif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp"
+                    android:background="@drawable/home"
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/asamjawa"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/bwputih"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/jahe"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/curcuma"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/kayumanis"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/profil"
+                        android:src="@drawable/krtumbar"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/profil"
+                        android:src="@drawable/kunyit"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/lengkuas"
+                        android:background="@drawable/profil"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/serai"
+                        android:background="@drawable/profil"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/rendang"
+                android:id="@+id/rendang"
+                android:onClick="rendang"
+                android:layout_gravity="center"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/sayurasem" />
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/seafood" />
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/semurjengkol" />
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/oporayam" />
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="400dp"
+                android:src="@drawable/pindangikan" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/heder"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"/>
+</RelativeLayout>

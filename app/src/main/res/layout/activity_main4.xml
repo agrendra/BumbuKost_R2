@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coor_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agrendra.bumbukost_r2.Main4Activity">
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        />
+    <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingLeft="150dp"
+            android:paddingRight="150dp"
+            android:background="#67ffffff"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="75dp"
+            />
+        -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        android:hint="Login"
+        android:textColorHint="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/profil"
+        />
+
+    <EditText
+        android:id="@+id/inuser"
+        android:layout_width="290dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:background="#bf9b9b91"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/logo"
+        android:hint="Username"
+        android:padding="10dp"
+        android:textColorHint="#feffff"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#93feffff"
+        />
+
+    <EditText
+        android:id="@+id/inpass"
+        android:layout_width="290dp"
+        android:layout_height="51dp"
+        android:layout_centerHorizontal="true"
+        android:background="#bf9b9b91"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/inuser"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColorHint="#feffff"
+        android:inputType="textPassword"
+        android:backgroundTint="#93feffff"
+        />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Lupa Password ?"
+        android:textColorHint="#feffff"
+        android:layout_below="@+id/inpass"
+        android:layout_alignRight="@+id/inpass"
+        android:layout_alignEnd="@+id/inpass"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:id="@+id/btnlog"
+        android:layout_below="@+id/forgot"
+        android:layout_alignRight="@+id/inpass"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#d5a9aaab"
+        android:text="Login"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:id="@+id/btnsigup"
+        android:layout_below="@+id/forgot"
+        android:layout_alignLeft="@+id/inpass"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#d5a9aaab"
+        android:text="SigUp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>
