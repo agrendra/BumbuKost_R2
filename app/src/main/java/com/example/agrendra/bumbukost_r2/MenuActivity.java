@@ -1,16 +1,26 @@
 package com.example.agrendra.bumbukost_r2;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
-public class Main3Activity extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+
+        setContentView(R.layout.activity_menu);
     }
 
     public void rendang(View view) {
@@ -23,8 +33,11 @@ Intent intent;
                 "dan menjadi kebanggaan tersendiri Bagi Indonesia serta bagi Rakyat Minangkabau sendiri");
         startActivity(intent);
 
-        /*Intent intent = new Intent(Main3Activity.this, MainActivity.class);
-        Main3Activity.this.startActivity(intent);
-        Main3Activity.this.finish();*/
+        /*Intent intent = new Intent(MenuActivity.this, MainActivity.class);
+        MenuActivity.this.startActivity(intent);
+        MenuActivity.this.finish();*/
     }
+
+
 }
+

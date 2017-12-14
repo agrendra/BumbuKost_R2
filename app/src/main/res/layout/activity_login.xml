@@ -6,7 +6,7 @@
     android:id="@+id/coor_Layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.agrendra.bumbukost_r2.Main4Activity">
+    tools:context="com.example.agrendra.bumbukost_r2.LoginActivity">
 
     <ImageView
         android:id="@+id/imgBackground"
@@ -107,6 +107,7 @@
         android:textStyle="bold"
         android:fontFamily="monospace"
         android:textColor="#ffffff"
+        android:onClick="login"
         />
 
     <Button
@@ -118,6 +119,7 @@
         android:layout_centerHorizontal="true"
         android:backgroundTint="#d5a9aaab"
         android:text="SigUp"
+        android:onClick="signup"
         android:textSize="21sp"
         android:textStyle="bold"
         android:fontFamily="monospace"

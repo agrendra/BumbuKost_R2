@@ -6,4 +6,6 @@
     <color name="colorCheck">#ffffff</color>
     <color name="colorUncheck">#B2D7D2</color>
     <color name="twoh_primary">#F44336</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>
