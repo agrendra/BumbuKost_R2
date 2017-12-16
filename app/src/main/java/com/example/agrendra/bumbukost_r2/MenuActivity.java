@@ -30,7 +30,7 @@ Intent intent;
         intent.putExtra("picture", R.drawable.rendang);
         intent.putExtra("detail","Merupakan makanan Yang berasal dari Padang Sumatra Barat, " +
                 "dan menjadi makanan paling diminati dan terlezat di tahun 2016 oleh Genius World Record, " +
-                "dan menjadi kebanggaan tersendiri Bagi Indonesia serta bagi Rakyat Minangkabau sendiri");
+                "dan menjadi kebanggaan tersendiri Bagi Indonesia serta bagi Rakyat Minangkabau sendiri.");
         startActivity(intent);
 
         /*Intent intent = new Intent(MenuActivity.this, MainActivity.class);
