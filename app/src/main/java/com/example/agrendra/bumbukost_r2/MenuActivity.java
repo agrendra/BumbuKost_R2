@@ -39,5 +39,16 @@ Intent intent;
     }
 
 
+    public void bumbu(View view) {
+    }
+
+    public void minum(View view) {
+    }
+
+    public void sarapan(View view) {
+    }
+
+    public void cemilan(View view) {
+    }
 }
 

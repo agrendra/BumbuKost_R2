@@ -7,65 +7,36 @@
     android:orientation="vertical"
     tools:context="com.example.agrendra.bumbukost_r2.MenuActivity">
 
-    <RelativeLayout
-        android:id="@+id/relatif1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:orientation="horizontal"
-            android:layout_alignParentTop="true"
-            android:background="#ffffff">
-            <ImageView
-                android:src="@drawable/footer"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"/>
-        </LinearLayout>
-    </RelativeLayout>
     <ScrollView
-        android:layout_below="@+id/relatif1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:id="@+id/scroll1">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
+
+            <ImageView
                 android:layout_width="400dp"
-                android:layout_height="200dp"
+                android:layout_height="260dp"
                 android:onClick="bumbu"
-                android:gravity="center"
-                android:text="Bumbu dapur"
-                android:textSize="30dp"
-                tools:ignore="OnClick" />
-            <TextView
+                android:src="@drawable/rempah" />
+
+            <ImageView
                 android:layout_width="400dp"
-                android:layout_height="200dp"
+                android:layout_height="260dp"
                 android:onClick="minum"
-                android:gravity="center"
-                android:text="Minuman"
-                android:textSize="30dp"
-                tools:ignore="OnClick" />
-            <TextView
+                android:src="@drawable/minum" />
+            <ImageView
                 android:layout_width="400dp"
-                android:layout_height="200dp"
+                android:layout_height="270dp"
                 android:onClick="sarapan"
-                android:gravity="center"
-                android:text="Sarapan sederhana"
-                android:textSize="30dp"
-                tools:ignore="OnClick" />
-            <TextView
+                android:src="@drawable/s1"/>
+            <ImageView
                 android:layout_width="400dp"
-                android:layout_height="200dp"
+                android:layout_height="260dp"
                 android:onClick="cemilan"
-                android:gravity="center"
-                android:text="Cemilan"
-                android:textSize="30dp"
-                tools:ignore="OnClick" />
+                android:src="@drawable/bolu_kukus_kopi"/>
 
         </LinearLayout>
     </ScrollView>
