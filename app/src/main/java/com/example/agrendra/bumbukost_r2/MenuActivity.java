@@ -40,6 +40,7 @@ Intent intent;
 
 
     public void bumbu(View view) {
+        //oke
     }
 
     public void minum(View view) {
