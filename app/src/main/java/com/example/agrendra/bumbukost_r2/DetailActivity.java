@@ -17,7 +17,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();//oke
+        actionBar.hide();
 
         ImageView imageView = (ImageView)findViewById(R.id.foto);
         TextView textView = (TextView)findViewById(R.id.teks);
