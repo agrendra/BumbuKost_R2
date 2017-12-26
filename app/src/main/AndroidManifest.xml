@@ -18,11 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MenucActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_menuc"
-            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".DetailActivity"></activity>
     </application>
 
 </manifest>

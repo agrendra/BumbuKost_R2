@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ListView;
 
 public class MenuActivity extends AppCompatActivity {
 Intent intent;
@@ -18,7 +19,7 @@ Intent intent;
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
 
         setContentView(R.layout.activity_menu);
     }
@@ -50,6 +51,11 @@ Intent intent;
     }
 
     public void cemilan(View view) {
+    }
+
+    public void rempah(View view) {
+        Intent intent = new Intent(this, ListActivity.class);
+        startActivity(intent);
     }
 }
 
