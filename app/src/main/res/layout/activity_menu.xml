@@ -8,36 +8,12 @@
     tools:context="com.example.agrendra.bumbukost_r2.MenuActivity">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:src="@drawable/rempah"
-                android:onClick="rempah"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:src="@drawable/minum"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:src="@drawable/s3"/>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:src="@drawable/banana_chocolate_stick"/>
-
-        </LinearLayout>
-    </ScrollView>
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:text="Activity One"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
